@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.androidbootcamp.healthyrecipes.Recipe">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/txtUserInterface"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBruschetta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="@string/btnBruschetta" />
+
+    <Button
+        android:id="@+id/btnConcert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:text="@string/btnConcert" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnBruschetta"
+        android:layout_below="@+id/btnBruschetta"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtInputVO"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnPiggyBankApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnConcert"
+        android:layout_below="@+id/btnConcert"
+        android:text="@string/btnPiggyBankApp" />
+</RelativeLayout>
