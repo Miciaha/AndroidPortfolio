@@ -11,20 +11,34 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/imageView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="258dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/roboto_bold"
         android:text="@string/txtPiggyTitle"
         android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="26sp" />
+        android:textColor="#7e8089"
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/btnPiggyBank"
+        style="@android:style/Widget.Material.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView12"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
-        android:text="@string/btnPiggyBank" />
+        android:layout_marginBottom="58dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/btnPiggyBank"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/piggybank" />
 </RelativeLayout>

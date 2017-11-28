@@ -27,9 +27,9 @@
     <string name="btnCostFind">Find The Cost</string>
     <!--Piggy Bank Children's App -->
     <string name="btnPiggyBankApp">Piggy Bank</string>
-    <string name="txtPiggyTitle">Young Savers</string>
+    <string name="txtPiggyTitle">Piggy\'s Coin Counter</string>
     <string name="btnPiggyApp">Piggy Bank App</string>
-    <string name="btnPiggyBank">Let\'s Go!</string>
+    <string name="btnPiggyBank">Continue</string>
     <string name="txtQuarters"># of Quarters</string>
     <string name="txtDimes"># of Dimes</string>
     <string name="txtNickles"># of Nickles</string>
