@@ -3,6 +3,7 @@
     <!--Main Menu resources -->
     <string name="txtUserInterface">User Interface</string>
     <string name="txtInputVO">User Input, Variables, and Operations</string>
+    <string name="txtDecisionMaking">Decision-Making Controls</string>
     <!--Bruschetta Recipe Resources -->
     <string name="btnBruschetta">Bruschetta Recipe</string>
     <string name="txtTitle">Bruschetta Recipe</string>
@@ -43,5 +44,11 @@
     <string name="title_home">Home</string>
     <string name="title_projects">Projects</string>
     <string name="title_contacts">Contact</string>
-
+    <!--Medical Weight Converter -->
+    <string name="MWCAppName">Weight Converter</string>
+    <string name="hintMWC">Weight of Patient</string>
+    <string name="MWC">Convert Patient Weight</string>
+    <string name="radLBToKilo">Convert Pounds to Kilograms</string>
+    <string name="radKiloToLB">Convert Kilograms to Pounds</string>
+    <string name="btnConvert">Convert Weight</string>
 </resources>

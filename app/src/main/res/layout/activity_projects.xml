@@ -51,4 +51,23 @@
         android:layout_alignStart="@+id/btnConcert"
         android:layout_below="@+id/btnConcert"
         android:text="@string/btnPiggyBankApp" />
+
+    <Button
+        android:id="@+id/mwcapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="14dp"
+        android:text="@string/MWCAppName" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnPiggyBankApp"
+        android:layout_below="@+id/btnPiggyBankApp"
+        android:layout_marginTop="32dp"
+        android:text="@string/txtDecisionMaking"
+        android:textSize="18sp" />
 </RelativeLayout>

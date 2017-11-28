@@ -12,9 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects);
+
+        //Setting icon in action bar
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
+
         Button buttonRecipe = (Button)findViewById(R.id.btnBruschetta);
         Button buttonConcert = (Button)findViewById(R.id.btnConcert);
         Button buttonPiggy = (Button)findViewById(R.id.btnPiggyBankApp);
+        Button buttonWeight = (Button) findViewById(R.id.mwcapp);
 
         buttonPiggy.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -35,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,Brush.class));
+            }
+        });
+
+        buttonWeight.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(MainActivity.this,Weightconverter.class));
             }
         });
 
