@@ -31,6 +31,7 @@ I've created this as a place to begin working on an application that will host a
 ![Coin Counter Open](/images/piggybankopen.PNG)
 ![Coin Counter Calc](/images/piggybankcount.PNG)
 
-- [ ] Weight Converter
+#### Weight Converter
+![Weight Converter Open](/images/weight.PNG)
 - [ ] Currency Converter
 - [ ] Tally Coffee Informer
