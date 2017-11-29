@@ -23,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
         Button buttonConcert = (Button)findViewById(R.id.btnConcert);
         Button buttonPiggy = (Button)findViewById(R.id.btnPiggyBankApp);
         Button buttonWeight = (Button) findViewById(R.id.mwcapp);
+        Button buttonConvert = (Button) findViewById(R.id.moneyConverter);
+
+        buttonConvert.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this,Conversion.class));
+            }
+        });
 
         buttonPiggy.setOnClickListener(new View.OnClickListener(){
             @Override

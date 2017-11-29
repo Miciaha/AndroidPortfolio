@@ -58,7 +58,6 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView14"
         android:layout_below="@+id/textView14"
-        android:layout_marginTop="14dp"
         android:text="@string/MWCAppName" />
 
     <TextView
@@ -70,4 +69,12 @@
         android:layout_marginTop="32dp"
         android:text="@string/txtDecisionMaking"
         android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/moneyConverter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mwcapp"
+        android:layout_below="@+id/mwcapp"
+        android:text="@string/txtMoneyConversionTitle" />
 </RelativeLayout>

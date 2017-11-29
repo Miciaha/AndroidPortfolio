@@ -51,4 +51,11 @@
     <string name="radLBToKilo">Convert Pounds to Kilograms</string>
     <string name="radKiloToLB">Convert Kilograms to Pounds</string>
     <string name="btnConvert">Convert Weight</string>
+    <!-- Money conversion App -->
+    <string name="txtMoneyConversionTitle">Money Converter</string>
+    <string name="hintMoney">Amount in USD</string>
+    <string name="radEuro">Euros</string>
+    <string name="radPeso">Pesos</string>
+    <string name="radCanadian">Canadian dollars</string>
+    <string name="btnMoneyConverter">Convert</string>
 </resources>

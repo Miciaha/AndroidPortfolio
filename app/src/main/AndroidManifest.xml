@@ -22,8 +22,9 @@
         <activity android:name=".PiggyBank" />
         <activity
             android:name=".Landing"
-            android:label="@string/title_activity_landing"></activity>
-        <activity android:name=".Weightconverter"></activity>
+            android:label="@string/title_activity_landing" />
+        <activity android:name=".Weightconverter" />
+        <activity android:name=".Conversion"></activity>
     </application>
 
 </manifest>
