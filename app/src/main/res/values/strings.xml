@@ -4,6 +4,7 @@
     <string name="txtUserInterface">User Interface</string>
     <string name="txtInputVO">User Input, Variables, and Operations</string>
     <string name="txtDecisionMaking">Decision-Making Controls</string>
+    <string name="txtListsArraysWebBrowsers">Lists, Arrays, and Web Browsers</string>
     <!--Bruschetta Recipe Resources -->
     <string name="btnBruschetta">Bruschetta Recipe</string>
     <string name="txtTitle">Bruschetta Recipe</string>
@@ -58,4 +59,11 @@
     <string name="radPeso">Pesos</string>
     <string name="radCanadian">Canadian dollars</string>
     <string name="btnMoneyConverter">Convert</string>
+    <!-- Coffee Shop -->
+    <string name="txtCoffeeTitle">Favorite Tallahassee Coffee Shops</string>
+    <string name="luckygoat">Lucky Goat Image</string>
+    <string name="blackdog">Black Dog Cafe Image</string>
+    <string name="allsaints">All Saints Cafe Image</string>
+    <string name="redeye">RedEye Coffee Image</string>
+    <string name="sweetshop">Sweet Shop</string>
 </resources>

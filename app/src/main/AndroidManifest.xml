@@ -24,7 +24,10 @@
             android:name=".Landing"
             android:label="@string/title_activity_landing" />
         <activity android:name=".Weightconverter" />
-        <activity android:name=".Conversion"></activity>
+        <activity android:name=".Conversion" />
+        <activity android:name=".Coffee" />
+        <activity android:name=".Allsaints" />
+        <activity android:name=".Sweetshop"></activity>
     </application>
 
 </manifest>

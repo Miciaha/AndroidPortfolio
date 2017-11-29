@@ -24,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
         Button buttonPiggy = (Button)findViewById(R.id.btnPiggyBankApp);
         Button buttonWeight = (Button) findViewById(R.id.mwcapp);
         Button buttonConvert = (Button) findViewById(R.id.moneyConverter);
+        Button buttonCoffee = (Button) findViewById(R.id.btnTally);
+
+        buttonCoffee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Coffee.class));
+            }
+        });
 
         buttonConvert.setOnClickListener(new View.OnClickListener(){
             @Override
