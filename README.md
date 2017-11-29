@@ -35,5 +35,7 @@ I've created this as a place to begin working on an application that will host a
 #### Weight Converter
 ![Weight Converter Open](/images/weight.PNG)
 
-- [ ] Currency Converter
+#### USD Converter
+![Money Converter Image](/images/money.PNG)
+
 - [ ] Tally Coffee Informer
