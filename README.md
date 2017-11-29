@@ -38,4 +38,7 @@ I've created this as a place to begin working on an application that will host a
 #### USD Converter
 ![Money Converter Image](/images/money.PNG)
 
-- [ ] Tally Coffee Informer
+#### Tallahassee Coffee Shop Menu
+![Shop List](/images/coffeemenu.PNG)
+![Website from App](/images/coffeeweb.PNG)
+![Image Viewer](/images/coffeepic.PNG)
