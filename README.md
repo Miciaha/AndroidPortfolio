@@ -38,6 +38,7 @@ I've created this as a place to begin working on an application that will host a
 #### USD Converter
 ![Money Converter Image](/images/money.PNG)
 
+### Lists, Arrays, and Web Browsers
 #### Tallahassee Coffee Shop Menu
 ![Shop List](/images/coffeemenu.PNG)
 ![Website from App](/images/coffeeweb.PNG)
